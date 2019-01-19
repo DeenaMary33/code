@@ -1,6 +1,5 @@
-#include <stdio.h>
-
-int main()
+#include<stdio.h>
+void main()
 {
     int a;
     scanf("%c",&a);
@@ -12,6 +11,4 @@ int main()
     {
         printf("No");
     }
-
-    return 0;
 }

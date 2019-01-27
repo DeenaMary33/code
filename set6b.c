@@ -1,0 +1,18 @@
+if(num==1)
+    {
+        printf("one");
+    }
+    if(num==2)
+    {
+        printf("two");
+    }
+    if(num==3)
+    {
+        printf("three");
+    }
+    if(num==4)
+    {
+        printf("four");
+    }
+    if(num==5)
+    {

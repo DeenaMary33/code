@@ -16,8 +16,14 @@ void main()
             {
               s[i+1]=s[i+1]-32;
             }
+        i++;
         }
-    }
-    
+        else 
+        {
+         if(s[i]>='A'&& s[i]<='Z')
+         {
+          s[i]=s[i]+32;  
+         }
+        }
     printf("%s",s);
 }

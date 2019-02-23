@@ -10,8 +10,6 @@ int main()
     {
     for(i=0;i<n;i++)
       {
-          if((s[i]>='a' && s[i]<='z') ||(s1[i]>='a' && s1[i]<='z'))
-          {
           if(s[i]==s1[i])
           {
               flag=0;
@@ -21,12 +19,6 @@ int main()
           {
               flag=1;
           }
-          }
-          else
-          {
-              flag=1;
-          }
-          
       }
     
     if(flag==0)
